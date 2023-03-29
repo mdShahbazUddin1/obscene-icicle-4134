@@ -40,7 +40,7 @@
 <div class="login_container" id="login">
     <div class="login">
         <div class="login-input">
-       <i class="fa-solid fa-x"></i>
+       <i class="fa-solid fa-x" id="close"></i>
        <h1>CREATE AN ACCOUNT</h1>
        <input type="text" placeholder="FIRST NAME" id="fname">
        <input type="text" placeholder="LAST NAME" id="lname">
@@ -66,12 +66,4 @@
 </div>
 </body>
 </html>
-<script>
- let creatAcnt = document.getElementById("create")
- let loginPopUp = document.getElementById("login")
-
-
-creatAcnt.addEventListener("click",()=>{
-    loginPopUp.style.display="block"
-})
-</script>
+<script src="./scripts/index.js"></script>

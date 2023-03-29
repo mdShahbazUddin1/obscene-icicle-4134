@@ -82,6 +82,7 @@
   position: relative;
   left: 93%;
   top: -10px;
+  cursor: pointer;
 }
 
 .login_guide div {
