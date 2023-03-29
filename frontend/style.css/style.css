@@ -21,7 +21,7 @@
   justify-content: end;
   background-color: #eeeeee;
   margin-top: -4px;
-  padding: 10px;
+  padding: 13px;
 }
 .navbar div {
   margin-right: 10px;
@@ -120,6 +120,72 @@
   border: none;
   outline: lightblue;
   cursor: pointer;
+}
+/* 
+ */
+.bottom-nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.container-nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.logo {
+  width: 15%;
+}
+
+.logo img {
+  width: 100%;
+}
+.content {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  font-size: 12px;
+  height: 90px;
+}
+.content div {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  border-right: 1px solid rgb(228, 224, 224);
+  padding-right: 20px;
+  height: 90px;
+}
+.container-nav div a{
+      text-decoration: none;
+    color: #535252;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.container-nav div:nth-child(6){
+  border-right: none;
+}
+
+.fa-cart-shopping{
+  font-size: 21px;
+  color: red;
+}
+.counter{
+  position: relative;
+  bottom: 12px;
+  font-weight: 600;
+}
+
+form{
+  margin-left: 20px;
+}
+
+form span{
+  font-size: 17px;
+  line-height: 30px;
+}
+form input{
+  padding: 5px;
 }
 
 
