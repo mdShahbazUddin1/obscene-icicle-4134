@@ -24,7 +24,6 @@
   padding: 13px;
 }
 .navbar div {
-
   margin-right: 10px;
   border-right: 1px solid rgb(61, 60, 60);
 }
@@ -57,6 +56,7 @@
   top: 8%;
   left: 30%;
   z-index: 10010;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .login {
   width: 100%;
@@ -201,12 +201,12 @@ form button {
 .container {
   background: url("https://assets.firestonecompleteautocare.com/content/dam/bsro-sites/global/images/hero/All-Season-WW-FCAC-1440x557-hero-des.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 600px;
-  height: 600px;
+  background-size: 100% 530px;
+  height: 530px;
 }
 
 .form-container {
-  width: 28%;
+  width: 30%;
   background-color: rgb(252, 22, 22);
   position: relative;
   top: 20px;
@@ -220,8 +220,8 @@ form button {
   text-align: center;
 }
 .topbtn > div > button:nth-child(1) {
-   background-color: rgb(175, 12, 12);
-   border-right: 3px solid #7a2522;
+  background-color: rgb(175, 12, 12);
+  border-right: 3px solid #7a2522;
 }
 .topbtn > div > button {
   width: 100%;
@@ -236,7 +236,7 @@ form button {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.small-btn{
+.small-btn {
   width: 70%;
   display: flex;
   align-items: center;
@@ -245,10 +245,10 @@ form button {
   margin-top: 15px;
   border: 2px solid black;
 }
-.small-btn>button:nth-child(1){
+.small-btn > button:nth-child(1) {
   border-right: 2px solid #7a2522;
 }
-.small-btn > button{
+.small-btn > button {
   width: 100%;
   font-size: 14px;
   padding: 5px;
@@ -256,10 +256,139 @@ form button {
   background-color: transparent;
   border: none;
 }
-
-
- @media only screen and (min-width: 700px) and (max-width: 1100px) {
-.navbar div a {
-  font-size: 0.7rem;
+.input-container {
+  width: 90%;
+  margin: auto;
 }
+.input-container p {
+  margin: 15px 0 15px 0;
+}
+.input-tags select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.input-tags button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #1565c0;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.service-container {
+  width: 30%;
+  position: absolute;
+  top: 2%;
+  left: 120%;
+  background-color: #d81d05;
+}
+.flex-box {
+  display: flex;
+}
+.details {
+  width: 53%;
+  position: absolute;
+  margin-left: 20px;
+  top: 70%;
+  left: 60%;
+  text-align: start;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: white;
+}
+.details h1 {
+  font-size: 50px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mid-banner {
+  width: 100%;
+  height: 500px;
+  margin-top: -26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mid-banner > div:nth-child(2) {
+  margin-left: 30px;
+}
+
+.bottom-banner {
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-banner div {
+  width: 50%;
+}
+
+.btm-txt {
+  margin-top: 20px;
+}
+.bottom-banner div:nth-child(2) > p {
+  font-size: 20px;
+  color: rgb(34, 34, 34);
+}
+.bottom-banner div:nth-child(2) > button {
+  font-size: 18px;
+  padding: 10px;
+  background-color: rgb(252, 22, 22);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.bottom-banner div:nth-child(2) > h1 {
+  font-size: 28px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+}
+.bottom-banner img {
+  width: 100%;
+}
+.loc {
+  text-align: center;
+  background: rgb(246, 246, 246);
+  background: linear-gradient(
+    90deg,
+    rgba(246, 246, 246, 1) 1%,
+    rgba(236, 236, 236, 1) 100%
+  );
+  padding: 12px;
+}
+.loc i {
+  color: #d81d05;
+  font-size: 16px;
+}
+.loc i,
+span {
+  padding-right: 1px;
+}
+
+.main-container h1 {
+  text-align: center;
+  margin: 20px 0 20px 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.det-nav {
+  width: 100%;
+  background-color: #d81d05;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.nav-item {
+  width: 85%;
+  padding: 5px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
 }
