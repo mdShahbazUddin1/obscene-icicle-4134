@@ -52,7 +52,7 @@
   height: 500px;
   background-color: #fffdfd;
   overflow-y: scroll;
-  position: absolute;
+  position: fixed;
   top: 8%;
   left: 30%;
   z-index: 10010;
@@ -385,10 +385,93 @@ span {
 }
 .nav-item {
   width: 85%;
-  padding: 5px;
+  padding: 7px;
   display: flex;
   margin: auto;
   align-items: center;
   justify-content: space-between;
+
   color: white;
+}
+
+.img-txt {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  margin-top: 40px;
+  border-radius: 10px;
+  background-color: #eee;
+}
+.img-txt > div {
+  width: 50%;
+}
+.img-txt img {
+  border-radius: 10px;
+  width: 100%;
+}
+.txt {
+  width: 90%;
+  padding: 20px;
+  margin: auto;
+  margin-top: 70px;
+}
+.txt h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  line-height: 30px;
+}
+.txt input {
+  padding: 11px;
+  width: 64%;
+  margin: 15px 0px 15px 0px;
+}
+.txt button {
+  padding: 11px;
+  font-weight: 800;
+  outline: none;
+  border: none;
+  background-color: #d81d05;
+  color: white;
+}
+.p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.midBanner {
+  width: 92%;
+  margin: auto;
+}
+.midBanner img {
+  width: 100%;
+}
+.midBanners {
+  width: 95%;
+  margin: auto;
+  margin-left: 18px;
+}
+.midBanners img {
+  width: 100%;
+}
+
+.logo-img {
+  width: 88.77%;
+  margin: auto;
+  margin-left: 62px;
+}
+.logo-img img {
+  width: 100%;
+}
+
+.top{
+  margin-top: -10px;
+}
+.footer{
+width: 100%;
+margin: auto;
+margin-top: 50px;
+}
+.footer img{
+  width: 100%;
 }
